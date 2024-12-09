@@ -142,6 +142,7 @@ const TableScreen = (props: any) => {
           100;
         values[table1].value = table1Value.toFixed(4);
         values[table1 + 1].value = table2Value.toFixed(4);
+        values[table1].variance = varianceOne;
         values[table1 + 1].variance = varianceTwo;
       }
     } else {
