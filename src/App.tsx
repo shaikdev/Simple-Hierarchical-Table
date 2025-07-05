@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import "./App.scss";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import store from "./store/store";
 import { Provider } from "react-redux";
 import TableScreen from "screens/table_screen/table.screen";
@@ -8,7 +8,7 @@ import TableScreen from "screens/table_screen/table.screen";
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <Router>
         <Suspense fallback={<div />}>
           <Routes>
             {/* <Route
@@ -27,7 +27,7 @@ function App() {
             ></Route>
           </Routes>
         </Suspense>
-      </BrowserRouter>
+      </Router>
     </Provider>
   );
 }
