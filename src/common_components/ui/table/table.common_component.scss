@@ -1,4 +1,3 @@
-
 .table_fix_header {
   overflow-y: auto;
   width: 100%;
@@ -70,7 +69,7 @@ th {
   width: 108px;
   height: 28px;
   border-radius: 6px;
-  background-color: blue;
+  background-color: rgb(224, 115, 31);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,4 +84,17 @@ th {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
 }
