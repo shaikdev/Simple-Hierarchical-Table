@@ -8,9 +8,6 @@ const TestScreen = () => {
   const {
     control,
     handleSubmit,
-    reset,
-    watch,
-    formState: { errors },
   } = useForm({
     defaultValues: {
       email: "",

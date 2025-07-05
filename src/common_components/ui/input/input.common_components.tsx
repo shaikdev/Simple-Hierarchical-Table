@@ -1,5 +1,5 @@
 import "./input.common_components.scss";
-import { Fragment, useRef, useState } from "react";
+import { Fragment, useState } from "react";
 import { Controller } from "react-hook-form";
 import _ from "lodash";
 
@@ -15,6 +15,7 @@ interface IInputComponent {
 
 const InputComponent = (props: IInputComponent) => {
   const [focus, setFocus] = useState(false);
+  console.log(focus);
   return (
     <Fragment>
       <Controller

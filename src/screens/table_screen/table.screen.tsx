@@ -2,7 +2,7 @@ import "./table.screen.scss";
 import { useSetState } from "utils/functions.utils";
 import TableComponent from "common_components/ui/table/table.common_component";
 
-const TableScreen = (props: any) => {
+const TableScreen = () => {
   const initialValues = [
     {
       label: "Electronics",
