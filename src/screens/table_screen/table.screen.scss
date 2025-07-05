@@ -1,0 +1,16 @@
+.table_screen_container {
+  width: 100%;
+  height: 100%;
+
+  .table_header_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #000000;
+  }
+
+  .table_section {
+    margin: 50px;
+  }
+}
